@@ -48,7 +48,7 @@ let image = renderer.image { context in
     }
     ctx.restoreGState()
 
-//yellow emnrella
+//yellow umbrella
     let octagonCenter = CGPoint(x: dim / 2 + 50, y: dim / 2)
     let r: CGFloat = dim / 6
     let n = 8
