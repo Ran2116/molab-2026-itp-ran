@@ -57,7 +57,6 @@ let image = renderer.image { context in
     ctx.saveGState()
     ctx.translateBy(x: octagonCenter.x, y: octagonCenter.y)  //p5 translate
 
-//bone of the umbrella
     let octagonPath = UIBezierPath()
     for i in 0..<n {
         let angle = 2 * .pi * CGFloat(i) / CGFloat(n) + angleOffset
@@ -70,7 +69,7 @@ let image = renderer.image { context in
     yellow.setFill()
     octagonPath.fill()
 
-  
+    //bone of the umbrella
     aqua_line.setStroke()
     ctx.setLineWidth(dim / 200)
     for i in 0..<n {
