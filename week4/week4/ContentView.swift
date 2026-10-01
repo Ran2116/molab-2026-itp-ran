@@ -95,7 +95,6 @@ struct PlantingView: View {
     
     @State private var startDate = Date()
     @State private var now = Date()
-    @State private var player: AVAudioPlayer?
     
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
