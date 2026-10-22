@@ -1,2 +1,5 @@
+Developed based on the Project: https://editor.p5js.org/rx2116/full/FERSgUVHo
+Supported by my Claude with the prompt: 
+Base on the project idea of ny own p5.js sketch (https://editor.p5js.org/rx2116/full/FERSgUVHo). (the model learns the color relationships of the source image (I put Mondrian’ s painting as referance). For every pixel, it records what color appears given the colors to its left and above it, building a table of probabilities. Then it uses those notes to build a new pixel image from scratch, filling an empty grid one cell at a time. For each cell, it looks at the neighbors it has just generated, finds the matching entry in the table, and randomly picks a color based on those probabilities. The new image follows the same color habits as the original, but the composition is entirely new, and every click produces a different variation) and the class demo 07-Instafilter (https://github.com/molab-itp/07-Instafilter), which uses PhotosPicker, a slider, a confirmation dialog for choosing filters, and ShareLink.
 
-
+I want to bring the idea from my p5 sketch into iOS. Instead of applying Core Image filters, the app should focus on the colors of the photo, create the color palette and divide the photo into a grid, take the average color of each cell, and redraw it as a color mosaic. 
