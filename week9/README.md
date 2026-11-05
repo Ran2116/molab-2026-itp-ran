@@ -12,6 +12,7 @@ For Week 09, I chose Option 1 and used the class `09-FireCards` project as a sta
 * Enabled Anonymous Authentication in Firebase.
 * Created a Cloud Firestore database in test mode.
 * Added cards in the app and verified that they appeared in the `cards` collection in my Firestore database.
+* Replaced test-mode rules with per-user security rules
 
 ### What I Learned
 
